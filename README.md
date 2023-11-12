@@ -6,11 +6,11 @@ Using YouTube RSS feeds, and YT-DLP to download channel videos
 
 - Add Flask frontend for administration
 - Refactor video filtering completely [Started]
-  - some sort of simple regex?
+  - Add some sort of simple regex?
 - Fix datetime things [remove Arrow dependency]
-- Move to 2 directory structure [one for downloading, one for JellyFin]
-  - Move files from download directory to JellyFin library, on finish
-- Trigger JellyFin Library refresh on finish
+- Move to 2 directory structure [one for downloading, one for JellyFin] **DONE**
+  - Move files from download directory to JellyFin library, on finish **DONE**
+- Trigger JellyFin Library refresh on finish  **DONE**
 - Build MVP, possible simple Flask frontend for watching ??
 
 ### Install
