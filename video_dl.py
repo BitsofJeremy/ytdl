@@ -21,7 +21,8 @@ ydl_opts = {
     # Example Output: <video_title>-[<video_id>].mp4
     'outtmpl': '%(title)s-[%(id)s].%(ext)s',
     # Download the best mp4 video available, or the best video if no mp4 available
-    'format': 'bv*[ext=mp4]+ba[ext=m4a]/b[ext=mp4] / bv*+ba/b',
+    # 'format': 'bv*[ext=mp4]+ba[ext=m4a]/b[ext=mp4] / bv*+ba/b',
+    'format': '(bv*[vcodec~="^((he|a)vc|h26[45])"]+ba) / (bv*+ba/b)',
     # No color in terminal
     'no_color': True,
     # Send to ffmpeg for MP4
